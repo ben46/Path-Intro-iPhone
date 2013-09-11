@@ -23,6 +23,8 @@
         imgView.frame = f;
         [self addSubview:imgView];
         
+        [self addSubview:model.button];
+        
     }
     return self;
 }
