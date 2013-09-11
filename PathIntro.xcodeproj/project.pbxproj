@@ -24,6 +24,7 @@
 		0A761CAB172EF75800B2A609 /* IntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A761CAA172EF75800B2A609 /* IntroView.m */; };
 		0A761CAD172F036C00B2A609 /* image1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A761CAC172F036C00B2A609 /* image1@2x.jpg */; };
 		0A761CB3172F075900B2A609 /* shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A761CB2172F075900B2A609 /* shadow@2x.png */; };
+		2DECDEC017E017FB00C9A121 /* ZQIntroModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DECDEBF17E017FB00C9A121 /* ZQIntroModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,8 @@
 		0A761CAA172EF75800B2A609 /* IntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroView.m; path = IntroControll/IntroView.m; sourceTree = "<group>"; };
 		0A761CAC172F036C00B2A609 /* image1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image1@2x.jpg"; sourceTree = "<group>"; };
 		0A761CB2172F075900B2A609 /* shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shadow@2x.png"; sourceTree = "<group>"; };
+		2DECDEBE17E017FB00C9A121 /* ZQIntroModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQIntroModel.h; sourceTree = "<group>"; };
+		2DECDEBF17E017FB00C9A121 /* ZQIntroModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQIntroModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,8 @@
 				0A761C9D172ED1D600B2A609 /* IntroModel.m */,
 				0A761CA9172EF75800B2A609 /* IntroView.h */,
 				0A761CAA172EF75800B2A609 /* IntroView.m */,
+				2DECDEBE17E017FB00C9A121 /* ZQIntroModel.h */,
+				2DECDEBF17E017FB00C9A121 /* ZQIntroModel.m */,
 			);
 			name = IntroControll;
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 				0A761C9B172ED17B00B2A609 /* IntroControll.m in Sources */,
 				0A761C9E172ED1D600B2A609 /* IntroModel.m in Sources */,
 				0A761CAB172EF75800B2A609 /* IntroView.m in Sources */,
+				2DECDEC017E017FB00C9A121 /* ZQIntroModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +334,7 @@
 				0A761C94172EAC5900B2A609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
