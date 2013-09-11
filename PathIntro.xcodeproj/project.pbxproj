@@ -17,14 +17,15 @@
 		0A761C8D172EAC5900B2A609 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A761C8C172EAC5900B2A609 /* Default@2x.png */; };
 		0A761C8F172EAC5900B2A609 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A761C8E172EAC5900B2A609 /* Default-568h@2x.png */; };
 		0A761C97172EAF7F00B2A609 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A761C96172EAF7F00B2A609 /* ExampleViewController.m */; };
-		0A761C9B172ED17B00B2A609 /* IntroControll.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A761C9A172ED17B00B2A609 /* IntroControll.m */; };
-		0A761C9E172ED1D600B2A609 /* IntroModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A761C9D172ED1D600B2A609 /* IntroModel.m */; };
 		0A761CA6172EEE0300B2A609 /* image2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A761CA5172EEE0300B2A609 /* image2@2x.jpg */; };
 		0A761CA8172EEE0900B2A609 /* image3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A761CA7172EEE0900B2A609 /* image3@2x.jpg */; };
-		0A761CAB172EF75800B2A609 /* IntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A761CAA172EF75800B2A609 /* IntroView.m */; };
 		0A761CAD172F036C00B2A609 /* image1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A761CAC172F036C00B2A609 /* image1@2x.jpg */; };
 		0A761CB3172F075900B2A609 /* shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A761CB2172F075900B2A609 /* shadow@2x.png */; };
-		2DECDEC017E017FB00C9A121 /* ZQIntroModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DECDEBF17E017FB00C9A121 /* ZQIntroModel.m */; };
+		2DECDED217E01AE500C9A121 /* IntroControll.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DECDEC917E01AE500C9A121 /* IntroControll.m */; };
+		2DECDED317E01AE500C9A121 /* IntroModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DECDECB17E01AE500C9A121 /* IntroModel.m */; };
+		2DECDED417E01AE500C9A121 /* IntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DECDECD17E01AE500C9A121 /* IntroView.m */; };
+		2DECDED517E01AE500C9A121 /* ZQIntroModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DECDECF17E01AE500C9A121 /* ZQIntroModel.m */; };
+		2DECDED617E01AE500C9A121 /* ZQIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DECDED117E01AE500C9A121 /* ZQIntroView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,18 +44,20 @@
 		0A761C8E172EAC5900B2A609 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0A761C95172EAF7F00B2A609 /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
 		0A761C96172EAF7F00B2A609 /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
-		0A761C99172ED17B00B2A609 /* IntroControll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroControll.h; path = IntroControll/IntroControll.h; sourceTree = "<group>"; };
-		0A761C9A172ED17B00B2A609 /* IntroControll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroControll.m; path = IntroControll/IntroControll.m; sourceTree = "<group>"; };
-		0A761C9C172ED1D600B2A609 /* IntroModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroModel.h; path = IntroControll/IntroModel.h; sourceTree = "<group>"; };
-		0A761C9D172ED1D600B2A609 /* IntroModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroModel.m; path = IntroControll/IntroModel.m; sourceTree = "<group>"; };
 		0A761CA5172EEE0300B2A609 /* image2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image2@2x.jpg"; sourceTree = "<group>"; };
 		0A761CA7172EEE0900B2A609 /* image3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image3@2x.jpg"; sourceTree = "<group>"; };
-		0A761CA9172EF75800B2A609 /* IntroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroView.h; path = IntroControll/IntroView.h; sourceTree = "<group>"; };
-		0A761CAA172EF75800B2A609 /* IntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroView.m; path = IntroControll/IntroView.m; sourceTree = "<group>"; };
 		0A761CAC172F036C00B2A609 /* image1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image1@2x.jpg"; sourceTree = "<group>"; };
 		0A761CB2172F075900B2A609 /* shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shadow@2x.png"; sourceTree = "<group>"; };
-		2DECDEBE17E017FB00C9A121 /* ZQIntroModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQIntroModel.h; sourceTree = "<group>"; };
-		2DECDEBF17E017FB00C9A121 /* ZQIntroModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQIntroModel.m; sourceTree = "<group>"; };
+		2DECDEC817E01AE500C9A121 /* IntroControll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroControll.h; sourceTree = "<group>"; };
+		2DECDEC917E01AE500C9A121 /* IntroControll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroControll.m; sourceTree = "<group>"; };
+		2DECDECA17E01AE500C9A121 /* IntroModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroModel.h; sourceTree = "<group>"; };
+		2DECDECB17E01AE500C9A121 /* IntroModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroModel.m; sourceTree = "<group>"; };
+		2DECDECC17E01AE500C9A121 /* IntroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroView.h; sourceTree = "<group>"; };
+		2DECDECD17E01AE500C9A121 /* IntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroView.m; sourceTree = "<group>"; };
+		2DECDECE17E01AE500C9A121 /* ZQIntroModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQIntroModel.h; sourceTree = "<group>"; };
+		2DECDECF17E01AE500C9A121 /* ZQIntroModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQIntroModel.m; sourceTree = "<group>"; };
+		2DECDED017E01AE500C9A121 /* ZQIntroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQIntroView.h; sourceTree = "<group>"; };
+		2DECDED117E01AE500C9A121 /* ZQIntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQIntroView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +104,7 @@
 		0A761C7E172EAC5900B2A609 /* PathIntro */ = {
 			isa = PBXGroup;
 			children = (
-				0A761C98172ED14000B2A609 /* IntroControll */,
+				2DECDEC717E01AE500C9A121 /* IntroControll */,
 				0A761C87172EAC5900B2A609 /* AppDelegate.h */,
 				0A761C88172EAC5900B2A609 /* AppDelegate.m */,
 				0A761C95172EAF7F00B2A609 /* ExampleViewController.h */,
@@ -129,19 +132,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0A761C98172ED14000B2A609 /* IntroControll */ = {
+		2DECDEC717E01AE500C9A121 /* IntroControll */ = {
 			isa = PBXGroup;
 			children = (
-				0A761C99172ED17B00B2A609 /* IntroControll.h */,
-				0A761C9A172ED17B00B2A609 /* IntroControll.m */,
-				0A761C9C172ED1D600B2A609 /* IntroModel.h */,
-				0A761C9D172ED1D600B2A609 /* IntroModel.m */,
-				0A761CA9172EF75800B2A609 /* IntroView.h */,
-				0A761CAA172EF75800B2A609 /* IntroView.m */,
-				2DECDEBE17E017FB00C9A121 /* ZQIntroModel.h */,
-				2DECDEBF17E017FB00C9A121 /* ZQIntroModel.m */,
+				2DECDEC817E01AE500C9A121 /* IntroControll.h */,
+				2DECDEC917E01AE500C9A121 /* IntroControll.m */,
+				2DECDECA17E01AE500C9A121 /* IntroModel.h */,
+				2DECDECB17E01AE500C9A121 /* IntroModel.m */,
+				2DECDECC17E01AE500C9A121 /* IntroView.h */,
+				2DECDECD17E01AE500C9A121 /* IntroView.m */,
+				2DECDECE17E01AE500C9A121 /* ZQIntroModel.h */,
+				2DECDECF17E01AE500C9A121 /* ZQIntroModel.m */,
+				2DECDED017E01AE500C9A121 /* ZQIntroView.h */,
+				2DECDED117E01AE500C9A121 /* ZQIntroView.m */,
 			);
-			name = IntroControll;
+			path = IntroControll;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,10 +221,11 @@
 				0A761C85172EAC5900B2A609 /* main.m in Sources */,
 				0A761C89172EAC5900B2A609 /* AppDelegate.m in Sources */,
 				0A761C97172EAF7F00B2A609 /* ExampleViewController.m in Sources */,
-				0A761C9B172ED17B00B2A609 /* IntroControll.m in Sources */,
-				0A761C9E172ED1D600B2A609 /* IntroModel.m in Sources */,
-				0A761CAB172EF75800B2A609 /* IntroView.m in Sources */,
-				2DECDEC017E017FB00C9A121 /* ZQIntroModel.m in Sources */,
+				2DECDED217E01AE500C9A121 /* IntroControll.m in Sources */,
+				2DECDED317E01AE500C9A121 /* IntroModel.m in Sources */,
+				2DECDED417E01AE500C9A121 /* IntroView.m in Sources */,
+				2DECDED517E01AE500C9A121 /* ZQIntroModel.m in Sources */,
+				2DECDED617E01AE500C9A121 /* ZQIntroView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
