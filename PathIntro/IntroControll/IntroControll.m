@@ -42,6 +42,7 @@
         pageControl.numberOfPages = pagesArray.count;
         [pageControl sizeToFit];
         [pageControl setCenter:CGPointMake(frame.size.width/2.0, frame.size.height-50)];
+        pageControl.tag = YES;
         [self addSubview:pageControl];
         
         //Create pages
@@ -118,6 +119,15 @@
         backgroundImage1.alpha = 1;
         backgroundImage2.alpha = 0;
     }
+    
+    if (pageControl.tag && pageControl.currentPage == pages.count - 1) {
+        [pageControl removeFromSuperview];
+        pageControl.tag = NO;
+    } else if (!pageControl.tag && pageControl.currentPage == pages.count - 2) {
+        [self addSubview:pageControl];
+        pageControl.tag = YES;
+    }
+    
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scroll {

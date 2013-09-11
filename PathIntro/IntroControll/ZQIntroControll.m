@@ -50,6 +50,7 @@
         pageControl.numberOfPages = pagesArray.count;
         [pageControl sizeToFit];
         [pageControl setCenter:CGPointMake(frame.size.width/2.0, frame.size.height-50)];
+        pageControl.tag = YES;
         [self addSubview:pageControl];
         
         //Create pages
