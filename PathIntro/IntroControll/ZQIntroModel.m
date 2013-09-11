@@ -10,16 +10,16 @@
 
 @implementation ZQIntroModel
 
-- (id)initWithFontImage:(NSString *)imageText backImage:(NSString *)bgImageText;
+- (id)initWithFontImageView:(UIImageView *)imageview backImage:(NSString *)bgImageText;
 {
-    return [self initWithFontImage:imageText backImage:bgImageText button:nil];
+    return [self initWithFontImageView:imageview backImage:bgImageText button:nil];
 }
 
-- (id)initWithFontImage:(NSString *)imageText backImage:(NSString *)bgImageText button:(UIButton *)button;
+- (id)initWithFontImageView:(UIImageView *)imageview backImage:(NSString *)bgImageText button:(UIButton *)button;
 {
     self = [super init];
     if (self) {
-        self.frontImage = [UIImage imageNamed:imageText];
+        self.frontImageView = imageview;
         self.image = [UIImage imageNamed:bgImageText];
         self.button = button;
     }

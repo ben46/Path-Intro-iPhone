@@ -15,13 +15,8 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-    
-        UIImageView *imgView = [[UIImageView alloc] initWithImage:model.frontImage];
-        CGRect f = imgView.frame;
-        f.origin.y = 0;
-        f.origin.x = 0;
-        imgView.frame = f;
-        [self addSubview:imgView];
+
+        [self addSubview:model.frontImageView];
         
         [self addSubview:model.button];
         

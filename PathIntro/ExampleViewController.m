@@ -19,7 +19,7 @@
 
 - (void) loadView {
     [super loadView];
-    if (1) {
+    if (0) {
         // with text
         IntroModel *model1 = [[IntroModel alloc] initWithTitle:@"Example 1" description:@"Hi, my name is Dmitry" image:@"intro_back_0"];
         
@@ -30,14 +30,18 @@
         self.view = [[IntroControll alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) pages:@[model1, model2, model3]];
     } else {
         // with image
-        ZQIntroModel *model1 = [[ZQIntroModel alloc] initWithFontImage:@"intro_front_0" backImage:@"intro_back_0"];
-        ZQIntroModel *model2 = [[ZQIntroModel alloc] initWithFontImage:@"intro_front_1" backImage:@"intro_back_1"];
+        UIImageView *imgView1 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"intro_front_0"]];
+        UIImageView *imgView2 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"intro_front_1"]];
+        UIImageView *imgView3 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"intro_front_2"]];
+
+        ZQIntroModel *model1 = [[ZQIntroModel alloc] initWithFontImageView:imgView1 backImage:@"intro_back_0"];
+        ZQIntroModel *model2 = [[ZQIntroModel alloc] initWithFontImageView:imgView2 backImage:@"intro_back_1"];
         UIImage *image = [UIImage imageNamed:@"intro_btn"];
-        UIButton *loginBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 60, image.size.width, image.size.height)];
+        UIButton *loginBtn = [[UIButton alloc] initWithFrame:CGRectMake(100, 910/2, image.size.width, image.size.height)];
         [loginBtn setBackgroundImage:[UIImage imageNamed:@"intro_btn"] forState:UIControlStateNormal];
         [loginBtn addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
         
-        ZQIntroModel *model3 = [[ZQIntroModel alloc] initWithFontImage:@"intro_front_2" backImage:@"intro_back_2" button:loginBtn];
+        ZQIntroModel *model3 = [[ZQIntroModel alloc] initWithFontImageView:imgView3 backImage:@"intro_back_2" button:loginBtn];
         
         self.view = [[ZQIntroControll alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) pages:@[model1, model2, model3]];
     }

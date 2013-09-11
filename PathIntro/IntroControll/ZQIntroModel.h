@@ -10,10 +10,10 @@
 
 @interface ZQIntroModel : IntroModel
 
-- (id)initWithFontImage:(NSString *)imageText backImage:(NSString *)bgImageText;
-- (id)initWithFontImage:(NSString *)imageText backImage:(NSString *)bgImageText button:(UIButton *)button;
+- (id)initWithFontImageView:(UIImageView *)imageview backImage:(NSString *)bgImageText;
+- (id)initWithFontImageView:(UIImageView *)imageview backImage:(NSString *)bgImageText button:(UIButton *)button;
 
-@property (nonatomic, strong) UIImage *frontImage;
+@property (nonatomic, strong) UIImageView *frontImageView;
 @property (nonatomic, strong) UIButton *button;
 
 @end
