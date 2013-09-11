@@ -26,6 +26,7 @@
 		2DECDED417E01AE500C9A121 /* IntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DECDECD17E01AE500C9A121 /* IntroView.m */; };
 		2DECDED517E01AE500C9A121 /* ZQIntroModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DECDECF17E01AE500C9A121 /* ZQIntroModel.m */; };
 		2DECDED617E01AE500C9A121 /* ZQIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DECDED117E01AE500C9A121 /* ZQIntroView.m */; };
+		2DECDED917E01C9100C9A121 /* ZQIntroControll.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DECDED817E01C9100C9A121 /* ZQIntroControll.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,8 @@
 		2DECDECF17E01AE500C9A121 /* ZQIntroModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQIntroModel.m; sourceTree = "<group>"; };
 		2DECDED017E01AE500C9A121 /* ZQIntroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQIntroView.h; sourceTree = "<group>"; };
 		2DECDED117E01AE500C9A121 /* ZQIntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQIntroView.m; sourceTree = "<group>"; };
+		2DECDED717E01C9100C9A121 /* ZQIntroControll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQIntroControll.h; sourceTree = "<group>"; };
+		2DECDED817E01C9100C9A121 /* ZQIntroControll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQIntroControll.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 				2DECDECB17E01AE500C9A121 /* IntroModel.m */,
 				2DECDECC17E01AE500C9A121 /* IntroView.h */,
 				2DECDECD17E01AE500C9A121 /* IntroView.m */,
+				2DECDED717E01C9100C9A121 /* ZQIntroControll.h */,
+				2DECDED817E01C9100C9A121 /* ZQIntroControll.m */,
 				2DECDECE17E01AE500C9A121 /* ZQIntroModel.h */,
 				2DECDECF17E01AE500C9A121 /* ZQIntroModel.m */,
 				2DECDED017E01AE500C9A121 /* ZQIntroView.h */,
@@ -226,6 +231,7 @@
 				2DECDED417E01AE500C9A121 /* IntroView.m in Sources */,
 				2DECDED517E01AE500C9A121 /* ZQIntroModel.m in Sources */,
 				2DECDED617E01AE500C9A121 /* ZQIntroView.m in Sources */,
+				2DECDED917E01C9100C9A121 /* ZQIntroControll.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
