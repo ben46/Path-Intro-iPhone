@@ -5,9 +5,11 @@
 
 - (id)init
 {
-    self = [super initWithNibName:nil bundle:nil];
-    self.wantsFullScreenLayout = YES;
-    self.modalPresentationStyle = UIModalPresentationFullScreen;
+    self = [super init];
+    if (self) {
+        self.wantsFullScreenLayout = YES;
+        self.modalPresentationStyle = UIModalPresentationFullScreen;
+    }
     return self;
 }
 
@@ -29,10 +31,5 @@
 	// Do any additional setup after loading the view.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
