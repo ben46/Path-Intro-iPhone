@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class ZQIntroModel;
 @interface ZQIntroView : UIView
+- (id)initWithFrame:(CGRect)frame model:(ZQIntroModel *)model;
 
 @end

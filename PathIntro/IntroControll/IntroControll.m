@@ -75,7 +75,8 @@
     [scrollView setContentOffset:CGPointMake((currentPhotoNum+1 == pages.count ? 0 : currentPhotoNum+1)*self.frame.size.width, 0) animated:YES];
 }
 
-- (void) initShow {
+- (void) initShow;
+{
     int scrollPhotoNumber = MAX(0, MIN(pages.count-1, (int)(scrollView.contentOffset.x / self.frame.size.width)));
     
     if(scrollPhotoNumber != currentPhotoNum) {

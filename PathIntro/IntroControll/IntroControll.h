@@ -15,6 +15,6 @@
 }
 
 - (id)initWithFrame:(CGRect)frame pages:(NSArray*)pages;
-
+- (void) initShow;
 
 @end

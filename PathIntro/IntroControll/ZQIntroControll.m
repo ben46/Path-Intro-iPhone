@@ -7,6 +7,7 @@
 //
 
 #import "ZQIntroControll.h"
+#import "ZQIntroView.h"
 
 @implementation ZQIntroControll
 
@@ -60,7 +61,7 @@
         
         //insert TextViews into ScrollView
         for(int i = 0; i <  pages.count; i++) {
-            IntroView *view = [[IntroView alloc] initWithFrame:frame model:[pages objectAtIndex:i]];
+            ZQIntroView *view = [[ZQIntroView alloc] initWithFrame:frame model:[pages objectAtIndex:i]];
             view.frame = CGRectOffset(view.frame, i*frame.size.width, 0);
             [scrollView addSubview:view];
         }

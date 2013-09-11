@@ -7,16 +7,23 @@
 //
 
 #import "ZQIntroView.h"
+#import "ZQIntroModel.h"
 
 @implementation ZQIntroView
 
-- (id)initWithFrame:(CGRect)frame
+- (id)initWithFrame:(CGRect)frame model:(ZQIntroModel *)model
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
+    
+        UIImageView *imgView = [[UIImageView alloc] initWithImage:model.frontImage];
+        CGRect f = imgView.frame;
+        f.origin.y = 0;
+        f.origin.x = 0;
+        imgView.frame = f;
+        [self addSubview:imgView];
+        
     }
     return self;
 }
-
 @end

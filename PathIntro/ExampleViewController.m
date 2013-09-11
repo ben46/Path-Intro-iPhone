@@ -1,6 +1,9 @@
+
+
 #import "ExampleViewController.h"
-#import "IntroControll.h"
 #import "ZQIntroModel.h"
+#import "ZQIntroView.h"
+#import "ZQIntroControll.h"
 
 @implementation ExampleViewController
 
@@ -27,11 +30,11 @@
         self.view = [[IntroControll alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) pages:@[model1, model2, model3]];
     } else {
         // with image
-        ZQIntroModel *model1 = [[ZQIntroModel alloc] initWithFontImage:@"" backImage:@"image1.jpg"];
-        ZQIntroModel *model2 = [[ZQIntroModel alloc] initWithFontImage:@"" backImage:@"image2.jpg"];
-        ZQIntroModel *model3 = [[ZQIntroModel alloc] initWithFontImage:@"" backImage:@"image3.jpg"];
+        ZQIntroModel *model1 = [[ZQIntroModel alloc] initWithFontImage:@"intro_front_0" backImage:@"intro_back_0"];
+        ZQIntroModel *model2 = [[ZQIntroModel alloc] initWithFontImage:@"intro_front_1" backImage:@"intro_back_1"];
+        ZQIntroModel *model3 = [[ZQIntroModel alloc] initWithFontImage:@"intro_front_2" backImage:@"intro_back_2"];
         
-        self.view = [[IntroControll alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) pages:@[model1, model2, model3]];
+        self.view = [[ZQIntroControll alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) pages:@[model1, model2, model3]];
     }
 
 }
